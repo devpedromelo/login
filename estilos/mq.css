@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    main h1{
+        text-align: center;
+        padding-left: 10px;
+        font-size: 2.5em;
+    }
+
+    form{
+        padding-left: 20px;
+    }
+
+    form label span{
+        font-size: 1.5em;
+    }
+
+    input{
+        padding:12px;
+    }
+
+    input[type=submit]{
+        margin-top: 5px;
+        font-size: 0.9em;
+        width: 140px;
+    }
+    
+    input[type=submit]:hover{
+        font-size: 1em;
+    }
+
+    .imagem img{
+        display: block;
+    }
+
+    .imagem{
+        display: flex;
+        align-items: flex-end;
+        padding: 40px;
+    }
+    
+    .imagem img{
+        width: 100%;
+    }
+    
+    .circle{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(45deg, #e8cbc0, #636fa4);
+        clip-path: circle(40% at right 80%);
+        z-index: -1;
+    }
+
+    .circle-left{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px){
+    
+    
+    main{
+        width: 50vw;
+    }
+    
+    main h1{
+        font-size: 3em;
+    }
+    
+    
+    .logos a img{
+        width: 36px;
+    }
+    
+    
+    form label span{
+        font-size: 1.9em;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        width: 300px;
+    }
+    
+    input:focus{
+        background-color: white;
+    }
+    
+    input[type=submit]{
+        margin-top: 5px;
+        font-size: 0.9em;
+        width: 140px;
+    }
+    
+    input[type=submit]:hover{
+        font-size: 1em;
+    }
+    
+    .imagem{
+        display: flex;
+        align-items: flex-end;
+        padding: 40px;
+    }
+    
+    .imagem img{
+        display: block;
+        width: 100%;
+    }
+    
+    .circle{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(45deg, #e8cbc0, #636fa4);
+        clip-path: circle(40% at right 80%);
+        z-index: -1;
+    }
+    
+    .circle-left{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(145deg, #e8cbc0, #636fa4);
+        clip-path: circle(40% at left 115%);
+        z-index: -1;
+    }
+}

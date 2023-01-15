@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mq.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <h1>Crie sua conta!</h1>
+        <div class="logos">
+            <a href="@">
+                <img src="imagens/google.png" alt="Google">
+            </a>
+            <a href="@">
+                <img src="imagens/facebook.png" alt="Facebook">
+            </a>
+            <a href="@">
+                <img src="imagens/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+        <div class="alternative">
+            <span>OU</span>
+        </div>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <label for="inome">
+                <span>Nome:</span>
+                <input type="text" name="nome" id="inome" required>
+            </label>
+            <label for="iemail">
+                <span>Email:</span>
+                <input type="email" name="email" id="iemail" required>
+            </label>
+            <label for="isenha">
+                <span>Senha:</span>
+                <input type="password" name="senha" id="isenha" required min="8">
+            </label>
+
+            <input type="submit" value="Continuar">
+        </form>
+    </main>
+    <section class="imagem">
+        <img src="imagens/mobile.svg" alt="Mobile">
+
+        <div class="circle">
+
+        </div>
+
+        <div class="circle-left">
+
+        </div>
+    </section>
+</body>
+</html>
